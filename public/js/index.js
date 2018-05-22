@@ -314,7 +314,7 @@ $(document).ready(function () {
                 console.log('chartdata: ' + graphData);
                 var ctx = document.getElementById('myChart' + goalId);
                 // var ctx = $('#myChart' + goalId);
-                console.log(ctx)
+                console.log(ctx);
                 ctx.height = 200;
                 var myChart = new Chart(ctx, {
                     type: 'line',
@@ -374,5 +374,5 @@ var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 var lineColors = ['#FF0000', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF', '#FF00FF', ];
 
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
+    $('[data-toggle="tooltip"]').tooltip();
+});

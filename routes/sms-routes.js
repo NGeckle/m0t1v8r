@@ -1,6 +1,6 @@
 require("dotenv").config();
 var db = require("../models");
-var request = require('request')
+var request = require('request');
 
 //TWILLIO
 var accountSid = process.env.TWILIO_ACCOUNT_SID;
